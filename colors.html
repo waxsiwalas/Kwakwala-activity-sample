@@ -39,6 +39,20 @@ onclick="play('audio1')">
 <button class="button button7">Orange</button>
 <button class="button button8">Purple</button>
 <button class="button button9">Yellow</button>
+	
+	<script>
+function play(element){
+   var audio = document.getElementById(element);
+   audio.play();
+             }
+</script>
+
+<input type="button" value="PLAY"  onclick="play('audio1')">
+<audio id="audio1" src="aud/green.mp3" ></audio>
+
+<input type="button" value="PLAY 2"  onclick="play('audio2')">
+<audio id="audio2" src="audio/hit.MP3" ></audio>
+
 
 </body>
 </html>
